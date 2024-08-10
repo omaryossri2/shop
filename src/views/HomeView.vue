@@ -12,7 +12,7 @@ onMounted(() => {
 })
 
 const products = computed(() => store.getters.products)
-const isCartVisible = computed(() => store.getters.isCartVisible) 
+const isCartVisible = computed(() => store.getters.isCartVisible)
 </script>
 
 <template>
@@ -38,21 +38,21 @@ const isCartVisible = computed(() => store.getters.isCartVisible)
 }
 
 .shop-items-container > * {
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 @media (max-width: 600px) {
   .shop-items-container {
-    flex-direction: column; 
+    flex-direction: column;
   }
   .shop-items-container > * {
-    width: calc(100%); 
+    width: calc(100%);
   }
 }
 
 @media (min-width: 601px) {
   .shop-items-container > * {
-    width: calc(25% - 1rem); 
+    width: calc(25% - 1rem);
   }
 }
 </style>
