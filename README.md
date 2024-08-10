@@ -2,6 +2,10 @@
 
 This is a simple e-commerce web application built with Vue 3 and Vuex, designed to showcase a variety of products. The project demonstrates the integration of state management with Vuex, handling a shopping cart, and creating a responsive user interface.
 
+## Live Demo
+
+You can view the live project [here](https://melodious-caramel-399b66.netlify.app/).
+
 ## Features
 
 - **Product Listing:** Display a list of products fetched from an external API.
